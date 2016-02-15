@@ -1,3 +1,17 @@
+## Notes to reviewers
+
+Please source `00-loading_the_data.R` before running the other plot scripts.
+This loads, subsets, and mutates the data for plotting in the
+plotting scripts (`plot1.R` and so on). 
+
+Please note that, as per the directions below, each plot includes code for
+reading the data. In my case, I opted to read the data and make the changes
+in the `00-loading_the_data.R` file and save the "plotting data set"
+as an R object `df` which is directly loaded via the `load` function
+in each R plotting script. This makes loading the data a more efficient.
+
+The forked `readme` is unchanged below.
+
 ## Introduction
 
 This assignment uses data from
