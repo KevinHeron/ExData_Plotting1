@@ -16,8 +16,8 @@ hist(df$global_active_power,
 plot(df$datetime, 
      df$global_active_power, 
      type = "l", 
-     xlab = "Global Active Power (kilowatts)", 
-     ylab = "")
+     xlab = "", 
+     ylab = "Global Active Power (kilowatts)")
 
 # Plot 2, 1. aka "Plot 3"
 plot(df$datetime, 

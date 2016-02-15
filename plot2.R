@@ -6,6 +6,6 @@ png("plot2.png", height = 480, width = 480, units = "px")
 plot(df$datetime, 
      df$global_active_power, 
      type = "l", 
-     xlab = "Global Active Power (kilowatts)", 
-     ylab = "")
+     xlab = "", 
+     ylab = "Global Active Power (kilowatts)")
 dev.off()
